@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preload" href="./assets/fonts/GTL001-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="shortcut icon" href="assets/img/favicon.ico">
+		<title>Home Page</title>
+		<link rel="modulepreload" crossorigin href="./js/common.min.js?v=1794608627630">
+		<script type="module" crossorigin="" src="./js/main.min.js?v=1794608627630"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/main.min.css?v=1794608627630">
+		<link rel="stylesheet" crossorigin="" href="./css/about.min.css?v=1794608627630">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header data-fls-header="" class="header">
+				<div class="header__container">
+					<!-- <include src="@components/layout/menu/menu.html" locals='{"active":"Home"}'></include> -->
+					<a href="" class="header__logo">
+						<img src="./assets/img/logo.svg" alt="logo">
+					</a>
+					<div class="header__menu menu">
+						<button type="button" data-fls-menu="" aria-label="button mobile menu" class="menu__icon icon-menu">
+							<span></span>
+						</button>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="#" class="menu__link">Menu</a>
+								</li>
+								<li class="menu__item">
+									<a href="about.html" class="menu__link">About</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link menu__link--creambg">Order Now</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</header>
+			<main class="page">
+				<!-- <script type="module" src="@components/custom/card/card.js?v=1794608627630"></script> -->
+				<section class="about__hero hero-about">
+					<div class="hero-about__container">
+						<div class="hero-about__picture">
+							<picture>
+								<img class="hero-about__img" alt="Image" src="./assets/img/about/hero/01.webp">
+							</picture>
+						</div>
+						<div class="hero-about__body body-about">
+							<div class="body-about__text">
+								<p>
+									We are a young, passionate team with a love for fresh, wholesome food and a deep respect for the environment. We bring a modern twist to traditional Vietnamese cuisine, creating
+               nourishing bowls packed with vibrant flavors and sustainable ingredients.
+								</p>
+								<p>Come visit us!</p>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section data-fls-location="" class="about__location location">
+					<div class="location__container">
+						<h2 class="location__title">Location</h2>
+						<div class="location__info info-location">
+							<div class="info-location__map map">
+								<iframe class="map__view" title="myFrame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.993488306948!2d-0.1033059188720262!3d51.51333546028092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604acd2aaaeff%3A0xbf263d0640e5e13e!2zMTAgT2xkIEJhaWxleSwgTG9uZG9uIEVDNE0gN05HLCDQktC10LvQuNC60LAg0JHRgNC40YLQsNC90ZbRjw!5e0!3m2!1suk!2sua!4v1794341436606!5m2!1suk!2sua" width="" height="" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+							</div>
+							<div class="info-location__body">
+								<div class="info-location__visit info-visit">
+									<h3 class="info-visit__title">Visit us</h3>
+									<div class="info-visit__text">
+										<p>
+											10 Old Bailey
+                     City of London, London EC4M 7NG
+                     +44 0723456789
+                     info@buddhabowl.com
+										</p>
+									</div>
+									<a class="info-visit__link" href="#">Get directions</a>
+								</div>
+								<div class="info-location__hours">
+									<h3 class="info-hours__title">Opening hours</h3>
+									<ul class="info-hours__list">
+										<li class="info-hours__item">
+											Monday
+											<span>11:00 am - 2:30 pm</span>
+										</li>
+										<li class="info-hours__item">
+											Tuesday
+											<span>11:00 am - 2:30 pm</span>
+										</li>
+										<li class="info-hours__item">
+											Wednesday
+											<span>11:00 am - 2:30 pm</span>
+										</li>
+										<li class="info-hours__item">
+											Thursday
+											<span>11:00 am - 2:30 pm</span>
+										</li>
+										<li class="info-hours__item">
+											Friday
+											<span>11:00 am - 2:30 pm</span>
+										</li>
+										<li class="info-hours__item">
+											Saturday
+											<span>closed</span>
+										</li>
+										<li class="info-hours__item">
+											Sunday
+											<span>closed</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer data-fls-footer="" class="footer">
+				<div class="footer__head head-footer">
+					<div class="head-footer__container">
+						<form class="head-footer__form form" action="#">
+							<label class="form__label" for="email">Sign up for Updates &Promotions</label>
+							<div class="form__block">
+								<input data-fls-input="" autocomplete="off" id="email" type="email" name="form[]" data-error="Помилка" placeholder="name@email.com" class="form__email">
+								<button data-fls-button="" type="submit" class="form__button btn-link">Sign up</button>
+							</div>
+						</form>
+						<nav class="head-footer__nav nav-footer">
+							<ul class="nav-footer__list">
+								<li class="nav-footer__item">
+									<a href="#" class="nav-footer__link">Menu</a>
+								</li>
+								<li class="nav-footer__item">
+									<a href="#" class="nav-footer__link">About</a>
+								</li>
+								<li class="nav-footer__item">
+									<a href="#" class="nav-footer__link">Join us</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+				<div class="footer__line"></div>
+				<div class="footer__body body-footer">
+					<div class="body-footer__container">
+						<div class="body-footer__text">
+							<p>@ 2024 Your Company, Inc. All rights reserved</p>
+						</div>
+						<ul class="body-footer__list">
+							<li class="body-footer__item">
+								<a href="#" aria-label="exits the page" rel="nofollow" class="body-footer__link body-footer__link--icon-x"></a>
+							</li>
+							<li class="body-footer__item">
+								<a href="#" aria-label="exits the page" rel="nofollow" class="body-footer__link body-footer__link--icon-instagram"></a>
+							</li>
+							<li class="body-footer__item">
+								<a href="#" aria-label="exits the page" rel="nofollow" class="body-footer__link body-footer__link--icon-pinterest"></a>
+							</li>
+							<li class="body-footer__item">
+								<a href="#" aria-label="exits the page" rel="nofollow" class="body-footer__link body-footer__link--icon-linkedin"></a>
+							</li>
+							<li class="body-footer__item">
+								<a href="#" aria-label="exits the page" rel="nofollow" class="body-footer__link body-footer__link--icon-tik-tok"></a>
+							</li>
+							<li class="body-footer__item">
+								<a href="#" aria-label="exits the page" rel="nofollow" class="body-footer__link body-footer__link--icon-youtube"></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
