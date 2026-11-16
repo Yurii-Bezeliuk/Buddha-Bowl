@@ -29,6 +29,21 @@ import { n as bodyLockToggle, t as bodyLockStatus } from "./common.min.js";
 		fetch(link.href, fetchOpts);
 	}
 })();
+// src/components/pages/menu/menu.js
+var buttons = document.querySelectorAll(".filter-btn");
+var cards = document.querySelectorAll(".menu-card");
+buttons.forEach((button) => {
+	button.addEventListener("click", () => {
+		buttons.forEach((btn) => btn.classList.remove("active"));
+		button.classList.add("active");
+		const filterValue = button.getAttribute("data-filter");
+		cards.forEach((card) => {
+			const category = card.getAttribute("data-category");
+			if (filterValue === "all" || category === filterValue) card.classList.remove("hidden");
+			else card.classList.add("hidden");
+		});
+	});
+});
 // src/components/layout/menu/menu.js
 function menuInit() {
 	document.addEventListener("click", function(e) {

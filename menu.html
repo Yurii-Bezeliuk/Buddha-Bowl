@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preload" href="./assets/fonts/GTL001-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="shortcut icon" href="assets/img/favicon.ico">
+		<title>Home Page</title>
+		<link rel="modulepreload" crossorigin href="./js/common.min.js?v=1794861511504">
+		<script type="module" crossorigin="" src="./js/main.min.js?v=1794861511504"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/main.min.css?v=1794861511504">
+		<link rel="stylesheet" crossorigin="" href="./css/card.min.css?v=1794861511504">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header data-fls-header="" class="header">
+				<div class="header__container">
+					<!-- <include src="@components/layout/menu/menu.html" locals='{"active":"Home"}'></include> -->
+					<a href="@index.html" class="header__logo">
+						<img src="./assets/img/logo.svg" alt="logo">
+					</a>
+					<div class="header__menu menu">
+						<button type="button" data-fls-menu="" aria-label="button mobile menu" class="menu__icon icon-menu">
+							<span></span>
+						</button>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="menu.html" class="menu__link">Menu</a>
+								</li>
+								<li class="menu__item">
+									<a href="about.html" class="menu__link">About</a>
+								</li>
+								<li class="menu__item">
+									<a href="menu.html" class="menu__link menu__link--creambg">Order Now</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</header>
+			<main class="page">
+				<!-- <script type="module" src="@components/custom/card/card.js?v=1794861511504"></script> -->
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js?v=1794861511504"></script>
+				<section class="menu__hero hero-menu">
+					<div class="hero-menu__container">
+						<div class="hero-menu__picture">
+							<picture>
+								<img class="hero-menu__img" alt="Image" src="./assets/img/menu/menu.webp">
+							</picture>
+						</div>
+						<div class="hero-menu__body body-menu">
+							<h2 class="body-menu__title">Our Menu</h2>
+							<div class="body-menu__text">
+								<p>
+									Pick from one of our Chef-inspired combinations or create your own. Only the freshest ingredients and flavors. Choose your base, protein, and sauce. All proteins, vegetables, and
+               toppings are gluten-free.
+								</p>
+							</div>
+							<a href="#" class="body-menu__link btn-link btn-link--icon-row">Order Now</a>
+						</div>
+					</div>
+				</section>
+				<section class="menu__carte carte">
+					<div class="carte__container">
+						<div class="filter-tabs">
+							<button class="filter-btn active" data-filter="all">All</button>
+							<button class="filter-btn" data-filter="pork">Pork</button>
+							<button class="filter-btn" data-filter="seafood">Seafood</button>
+							<button class="filter-btn" data-filter="vegan">Vegan</button>
+						</div>
+						<!-- 2. Сітка карток -->
+						<div class="menu-grid">
+							<article data-fls-card="" data-category="vegan" class="menu-card preview__item item-card">
+								<a href="#" class="item-card__list">
+									<div class="item-card__picture">
+										<picture>
+											<img alt="Image" src="./assets/img/preview/01.webp">
+										</picture>
+									</div>
+									<div class="item-card__body item-body">
+										<h3 class="item-body__title">Pork Desire</h3>
+										<div class="item-body__text">Mixed Greens, Cucumber, Pickled Veggies, Cilantro, Crispy Shallots, Jalapeno.</div>
+										<div class="item-body__link btn-link">Order now</div>
+									</div>
+								</a>
+							</article>
+							<article data-fls-card="" data-category="seafood" class="menu-card preview__item item-card">
+								<a href="#" class="item-card__list">
+									<div class="item-card__picture">
+										<picture>
+											<img alt="Image" src="./assets/img/preview/01.webp">
+										</picture>
+									</div>
+									<div class="item-card__body item-body">
+										<h3 class="item-body__title">Pork Desire</h3>
+										<div class="item-body__text">Mixed Greens, Cucumber, Pickled Veggies, Cilantro, Crispy Shallots, Jalapeno.</div>
+										<div class="item-body__link btn-link">Order now</div>
+									</div>
+								</a>
+							</article>
+							<article data-fls-card="" data-category="seafood" class="menu-card preview__item item-card">
+								<a href="#" class="item-card__list">
+									<div class="item-card__picture">
+										<picture>
+											<img alt="Image" src="./assets/img/preview/01.webp">
+										</picture>
+									</div>
+									<div class="item-card__body item-body">
+										<h3 class="item-body__title">Pork Desire</h3>
+										<div class="item-body__text">Mixed Greens, Cucumber, Pickled Veggies, Cilantro, Crispy Shallots, Jalapeno.</div>
+										<div class="item-body__link btn-link">Order now</div>
+									</div>
+								</a>
+							</article>
+							<article data-fls-card="" data-category="pork" class="menu-card preview__item item-card">
+								<a href="#" class="item-card__list">
+									<div class="item-card__picture">
+										<picture>
+											<img alt="Image" src="./assets/img/preview/01.webp">
+										</picture>
+									</div>
+									<div class="item-card__body item-body">
+										<h3 class="item-body__title">Pork Desire</h3>
+										<div class="item-body__text">Mixed Greens, Cucumber, Pickled Veggies, Cilantro, Crispy Shallots, Jalapeno.</div>
+										<div class="item-body__link btn-link">Order now</div>
+									</div>
+								</a>
+							</article>
+							<article data-fls-card="" data-category="pork" class="menu-card preview__item item-card">
+								<a href="#" class="item-card__list">
+									<div class="item-card__picture">
+										<picture>
+											<img alt="Image" src="./assets/img/preview/01.webp">
+										</picture>
+									</div>
+									<div class="item-card__body item-body">
+										<h3 class="item-body__title">Pork Desire</h3>
+										<div class="item-body__text">Mixed Greens, Cucumber, Pickled Veggies, Cilantro, Crispy Shallots, Jalapeno.</div>
+										<div class="item-body__link btn-link">Order now</div>
+									</div>
+								</a>
+							</article>
+							<article data-fls-card="" data-category="pork" class="menu-card preview__item item-card">
+								<a href="#" class="item-card__list">
+									<div class="item-card__picture">
+										<picture>
+											<img alt="Image" src="./assets/img/preview/01.webp">
+										</picture>
+									</div>
+									<div class="item-card__body item-body">
+										<h3 class="item-body__title">Pork Desire</h3>
+										<div class="item-body__text">Mixed Greens, Cucumber, Pickled Veggies, Cilantro, Crispy Shallots, Jalapeno.</div>
+										<div class="item-body__link btn-link">Order now</div>
+									</div>
+								</a>
+							</article>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer data-fls-footer="" class="footer">
+				<div class="footer__head head-footer">
+					<div class="head-footer__container">
+						<form class="head-footer__form form" action="#">
+							<label class="form__label" for="email">Sign up for Updates &Promotions</label>
+							<div class="form__block">
+								<input data-fls-input="" autocomplete="off" id="email" type="email" name="form[]" data-error="Помилка" placeholder="name@email.com" class="form__email">
+								<button data-fls-button="" type="submit" class="form__button btn-link">Sign up</button>
+							</div>
+						</form>
+						<nav class="head-footer__nav nav-footer">
+							<ul class="nav-footer__list">
+								<li class="nav-footer__item">
+									<a href="menu.html" class="nav-footer__link">Menu</a>
+								</li>
+								<li class="nav-footer__item">
+									<a href="about.html" class="nav-footer__link">About</a>
+								</li>
+								<li class="nav-footer__item">
+									<a href="#" class="nav-footer__link">Join us</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+				<div class="footer__line"></div>
+				<div class="footer__body body-footer">
+					<div class="body-footer__container">
+						<div class="body-footer__text">
+							<p>@ 2024 Your Company, Inc. All rights reserved</p>
+						</div>
+						<ul class="body-footer__list">
+							<li class="body-footer__item">
+								<a href="#" aria-label="exits the page" rel="nofollow" class="body-footer__link body-footer__link--icon-x"></a>
+							</li>
+							<li class="body-footer__item">
+								<a href="#" aria-label="exits the page" rel="nofollow" class="body-footer__link body-footer__link--icon-instagram"></a>
+							</li>
+							<li class="body-footer__item">
+								<a href="#" aria-label="exits the page" rel="nofollow" class="body-footer__link body-footer__link--icon-pinterest"></a>
+							</li>
+							<li class="body-footer__item">
+								<a href="#" aria-label="exits the page" rel="nofollow" class="body-footer__link body-footer__link--icon-linkedin"></a>
+							</li>
+							<li class="body-footer__item">
+								<a href="#" aria-label="exits the page" rel="nofollow" class="body-footer__link body-footer__link--icon-tik-tok"></a>
+							</li>
+							<li class="body-footer__item">
+								<a href="#" aria-label="exits the page" rel="nofollow" class="body-footer__link body-footer__link--icon-youtube"></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
